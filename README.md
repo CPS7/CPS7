@@ -1,4 +1,4 @@
-![logo](https://github.com/CPS7/CPS7/blob/main/Github%20Banner.png)
+![logo](https://github.com/CPS7/CPS7/blob/main/20231122_174153.jpg)
 <h1 align="center">Hi There 👋 I am CPS_GAMING#0</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
