@@ -46,8 +46,31 @@ My name is CPS, and a developer by heart — all the way from India. I am a full
 </table>
 
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=cps7&show_icons=true&locale=en&layout=compact" alt="cps7" /></p>
+## Tools:
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=cps7&show_icons=true&locale=en" alt="cps7" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=cps7&" alt="cps7" /></p>
+<table width="100%" height="100%" align="center">
+  <tr>
+    <td>
+      <img alt="Visual Studio Code" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" width="50" height="50" />
+    </td>
+    <td>
+      <img alt="Ubuntu" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain.svg" width="50" height="50" />
+    </td>
+    <td>
+      <img alt="Windows" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/windows8/windows8-original.svg" width="50" height="50" />
+    </td>
+    <td>
+      <img alt="Git" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="50" height="50" />
+    </td>
+    <td>
+      <img alt="GitHub" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="50" height="50" />
+    </td>
+    <td>
+      <img alt="Cloudflare-Workers" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cloudflare/cloudflare-original.svg" width="50" height="50" />
+    </td>
+    <td>
+      <img alt="Vercel" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vercel/vercel-original.svg" width="50" height="50" />
+    </td>
+  </tr>
+</table>
