@@ -6,8 +6,6 @@ My name is CPS, and a developer by heart — all the way from India. I am a full
 
 - 🌱 I’m currently learning **C++**
 
-- 👨‍💻 All of my projects are available at [https://discord.com/invite/xPA56GsNJq](https://discord.com/invite/xPA56GsNJq)
-
 - 💬 Ask me about **Anything related Python,Html, javascript and maybe about C++**
 
 - 📫 How to reach me **cpsgaming17@gmail.com**
