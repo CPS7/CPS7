@@ -1,4 +1,4 @@
-![logo](https://github.com/CPS7/CPS7/blob/main/20231122_174153.jpg)
+[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=CPS7&data=followers,repositories,stars,commits&theme=viridescent)](https://github.com/CPS7)
 <h1 align="center">Hi There 👋 I am CPS_GAMING#0</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
