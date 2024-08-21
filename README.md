@@ -2,7 +2,7 @@
 # Hi there 👋
 My name is CPS, and a developer by heart — all the way from India. I am a full life-cycle developer who takes pride in providing an end-end experience from the comfort of clean architecture, and well documented and efficient code. I am strongly motivated to convert the ideations into reality in a much more thoughtful and executed way, keeping quality as the top priority for any project I take on.
 
-- 🔭 I’m currently working on **Discord Bot**
+- 🔭 I’m currently working on **Ultimate Tunes Discord Bot**
 
 - 🌱 I’m currently learning **C++**
 
