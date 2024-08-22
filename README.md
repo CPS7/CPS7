@@ -84,6 +84,6 @@ My name is CPS, and a developer by heart — all the way from India. I am a full
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=CPS7&theme=radical&layout=compact)](https://github.com/CPS7)</td>
   <td>
 
-![Github stats](https://github-readme-stats.vercel.app/api?username=CPS7&theme=radical&show_icons=true&count_private=true&hide=issues) </td>
+![Github stats](https://github-readme-stats.vercel.app/api?username=CPS7&theme=radical&show_icons=true&count_private=false) </td>
     </tr>
 </table>
