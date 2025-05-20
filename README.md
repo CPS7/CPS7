@@ -140,10 +140,10 @@
     CONNECT WITH THE ARCHITECT:
   </h3>
   <p style="margin-bottom: 60px; font-size: 2.2em; font-family: 'sans-serif';">
-    <a href="mailto:cpsgaming17@gmail.com" target="_blank" title="Send me an Email" style="text-decoration: none; display: inline-block; margin: 10px;">
+    <a href="mailto:developmentcoding09@gmail.com" target="_blank" title="Send me an Email" style="text-decoration: none; display: inline-block; margin: 10px;">
       <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
     </a>
-    <a href="https://www.instagram.com/cps_predator/" target="_blank" title="Follow me on Instagram" style="text-decoration: none; display: inline-block; margin: 10px;">
+    <a href="https://www.instagram.com/lakshay_rastogi_/" target="_blank" title="Follow me on Instagram" style="text-decoration: none; display: inline-block; margin: 10px;">
       <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
     </a>
     </p>
