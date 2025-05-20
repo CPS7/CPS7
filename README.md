@@ -6,7 +6,7 @@
      CPS: FORGING DIGITAL EXCELLENCE.
   </h1>
   <p style="font-size: 3em; color: #E0E0E0; margin-top: 40px; font-weight: 400; line-height: 1.7; font-family: 'sans-serif';">
-    YOUR VISION. MY UNRIVALED EXPERTISE. **INEVITABLE TRIUMPH.**
+    YOUR VISION. MY UNRIVALED EXPERTISE. INEVITABLE TRIUMPH.
   </p>
 </div>
 
@@ -14,10 +14,10 @@
 
 <div align="center" style="margin-top: 100px; margin-bottom: 100px; padding: 0 80px;">
   <p style="font-size: 2.4em; line-height: 2.4; color: #CCCCCC; font-family: 'sans-serif';">
-    Hi there 👋 I'm **CPS**, a dedicated full life-cycle developer from India. My passion lies in converting complex ideas into reality through **clean architecture, efficient code, and a relentless focus on quality**. I'm committed to providing an unparalleled end-to-end development experience.
+    Hi there 👋 I'm CPS, a dedicated full life-cycle developer from India. My passion lies in converting complex ideas into reality through clean architecture, efficient code, and a relentless focus on quality. I'm committed to providing an unparalleled end-to-end development experience.
   </p>
   <p style="font-size: 2.4em; line-height: 2.4; color: #CCCCCC; font-weight: bold; margin-top: 50px; font-family: 'sans-serif';">
-    If you demand **unquestionable digital supremacy** and a **commanding market presence**, your quest ends here. I am your strategic architect.
+    If you demand unquestionable digital supremacy and a commanding market presence, your quest ends here. I am your strategic architect.
   </p>
 </div>
 
@@ -28,7 +28,7 @@
     MY ARSENAL OF MASTERY 🛠️✨
   </h2>
 
-  ### **CORE DEVELOPMENT SKILLS:**
+  ### CORE DEVELOPMENT SKILLS:
   <p style="margin-bottom: 70px; font-size: 2.2em; line-height: 2.8; font-family: 'sans-serif';">
     <a href="YOUR_PYTHON_PROJECTS_LINK" title="My Python Projects" target="_blank" style="text-decoration: none; display: inline-block; margin: 10px;">
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python" />
@@ -56,7 +56,7 @@
     </a>
   </p>
 
-  ### **DATABASE & TOOLS:**
+  ### DATABASE & TOOLS:
   <p style="margin-bottom: 70px; font-size: 2.2em; line-height: 2.8; font-family: 'sans-serif';">
     <a href="YOUR_MONGODB_PROJECTS_LINK" title="My MongoDB Projects" target="_blank" style="text-decoration: none; display: inline-block; margin: 10px;">
       <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
@@ -90,7 +90,7 @@
     </a>
   </p>
 
-  ### **CREATIVE & BUSINESS SKILLS:**
+  ### CREATIVE & BUSINESS SKILLS:
   <p style="margin-bottom: 70px; font-size: 2.2em; line-height: 2.8; font-family: 'sans-serif';">
     <a href="YOUR_VIDEO_EDITING_PORTFOLIO_LINK" title="My Video Editing Portfolio" target="_blank" style="text-decoration: none; display: inline-block; margin: 10px;">
       <img src="https://img.shields.io/badge/Video%20Editing-FF0000?style=for-the-badge&logo=adobe-premiere-pro&logoColor=white" alt="Video Editing" />
@@ -124,7 +124,7 @@
     READY TO COMMAND YOUR DIGITAL FUTURE?
   </h2>
   <p style="font-size: 2.8em; color: #F0F0F0; margin-bottom: 90px; line-height: 2.1; font-family: 'sans-serif';">
-    For projects demanding **ABSOLUTE PRECISION**, **BREAKTHROUGH INNOVATION**, and a **DEFINITIVE PATH TO SUPREMACY**, engage with my exclusive services.
+    For projects demanding ABSOLUTE PRECISION, BREAKTHROUGH INNOVATION, and a DEFINITIVE PATH TO SUPREMACY, engage with my exclusive services.
   </p>
   <a href="https://www.fiverr.com/lakshay_rastogi" target="_blank" style="text-decoration: none;" title="Hire me on Fiverr">
     <span style="display: inline-block; background-color: #10AF00; color: #FFFFFF; padding: 40px 80px; border-radius: 30px; font-size: 3.5em; font-weight: bold; box-shadow: 0 30px 90px rgba(16, 175, 0, 1), 0 0 50px rgba(16, 175, 0, 0.9); text-transform: uppercase;">
@@ -150,13 +150,13 @@
   <div style="background-color: #1a1a1a; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin-bottom: 30px;">
     <p style="font-size: 1.8em; color: #AAAAAA; line-height: 2.2; font-family: 'sans-serif'; text-align: left; margin-bottom: 15px;">
       <span style="display: block; margin-bottom: 10px;">
-        <span style="font-weight: bold; color: #FFFFFF;">**Currently honing:**</span> C++ Architectures & High-Performance Systems 💡
+        <span style="font-weight: bold; color: #FFFFFF;">Currently honing:</span> C++ Architectures & High-Performance Systems 💡
       </span>
       <span style="display: block; margin-bottom: 10px;">
-        <span style="font-weight: bold; color: #FFFFFF;">**Ask me about:**</span> Python, HTML, JavaScript, and anything related to C++!
+        <span style="font-weight: bold; color: #FFFFFF;">Ask me about:</span> Python, HTML, JavaScript, and anything related to C++!
       </span>
       <span style="display: block;">
-        <span style="font-weight: bold; color: #FFFFFF;">**Fun fact:**</span> The first "computer bug" was indeed an actual bug. History's ironies.
+        <span style="font-weight: bold; color: #FFFFFF;">Fun fact:</span> The first "computer bug" was indeed an actual bug. History's ironies.
       </span>
     </p>
   </div>
