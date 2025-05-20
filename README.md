@@ -3,7 +3,7 @@
     <img src="https://github-widgetbox.vercel.app/api/profile?username=CPS7&data=followers,repositories,stars,commits&theme=viridescent" alt="CPS7 Profile Overview" style="width: 90%; max-width: 800px; border-radius: 30px; box-shadow: 0 25px 100px rgba(138, 255, 0, 0.9), 0 0 50px rgba(138, 255, 0, 0.7); margin-bottom: 30px;" />
   </a>
   <h1 style="font-size: 6.5em; color: #FFFFFF; text-shadow: 0 0 50px rgba(255, 255, 255, 0.9), 0 0 35px rgba(255, 255, 255, 0.8); margin-top: 30px; font-weight: 900; letter-spacing: -6px; font-family: 'monospace', sans-serif; text-transform: uppercase;">
-    // CPS: FORGING DIGITAL EXCELLENCE.
+     CPS: FORGING DIGITAL EXCELLENCE.
   </h1>
   <p style="font-size: 3em; color: #E0E0E0; margin-top: 40px; font-weight: 400; line-height: 1.7; font-family: 'sans-serif';">
     YOUR VISION. MY UNRIVALED EXPERTISE. **INEVITABLE TRIUMPH.**
