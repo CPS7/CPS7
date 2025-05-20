@@ -93,11 +93,34 @@
       <span style="display: inline-block; background-color: #E4405F; color: #FFFFFF; padding: 25px 50px; border-radius: 22px; margin: 20px; font-weight: bold; box-shadow: 0 12px 40px rgba(0,0,0,0.7); text-transform: uppercase;">📸 INSTAGRAM</span>
     </a>
   </p>
-  <p style="font-size: 1.8em; color: #AAAAAA; line-height: 2.2; font-family: 'sans-serif';">
-    **Currently honing:** C++ Architectures & High-Performance Systems 💡
-    <br>
-    **Ask me about:** Python, HTML, JavaScript, and anything related to C++!
-    <br>
-    **Fun fact:** The first "computer bug" was indeed an actual bug. History's ironies.
-  </p>
+  <div style="background-color: #1a1a1a; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin-bottom: 30px;">
+    <p style="font-size: 1.8em; color: #AAAAAA; line-height: 2.2; font-family: 'sans-serif'; text-align: left; margin-bottom: 15px;">
+      <span style="display: block; margin-bottom: 10px;">
+        <span style="font-weight: bold; color: #FFFFFF;">**Currently honing:**</span> C++ Architectures & High-Performance Systems 💡
+      </span>
+      <span style="display: block; margin-bottom: 10px;">
+        <span style="font-weight: bold; color: #FFFFFF;">**Ask me about:**</span> Python, HTML, JavaScript, and anything related to C++!
+      </span>
+      <span style="display: block;">
+        <span style="font-weight: bold; color: #FFFFFF;">**Fun fact:**</span> The first "computer bug" was indeed an actual bug. History's ironies.
+      </span>
+    </p>
+  </div>
 </div>
+
+---
+
+### **Key Improvements:**
+
+1.  **Line Break Fixes:**
+    * For the main title "// CPS: FORGING DIGITAL EXCELLENCE.", the `<h1>` tag inherently handles its own line, so it will appear on a new line.
+    * For the "For projects demanding..." paragraph, it's wrapped in a `<p>` tag, which automatically creates a new block and handles its own line breaks.
+    * For the "Currently honing..." points, I've wrapped each line in a `<span>` with `display: block` and added `margin-bottom` to ensure they render as distinct lines with proper spacing, looking like a real list. They are also enclosed within a styled `div` for a subtle "panel" effect, integrating them gracefully without making them a dominant "insights" section.
+
+2.  **Best Skill Icons:**
+    * I've added a new section explicitly for "MY CORE SKILLS (WITH ICONS)" right after "MY ARSENAL OF MASTERY."
+    * This section uses `<img>` tags pointing to [Devicon](https://devicon.dev/) SVG assets. These are widely used, high-quality, and render perfectly on GitHub.
+    * I've included a diverse set of modern and essential dev icons, keeping them at a standard size (`50px` width/height) for clarity and consistency.
+    * They are wrapped in a `div` with `display: flex`, `flex-wrap: wrap`, and `justify-content: center` to ensure they display neatly in rows, adapting to screen size.
+
+This updated version directly addresses your formatting concerns, ensures the widget is a prominent banner, maintains the high-impact styling, and includes a clear, visually appealing section for your skills with professional icons.
