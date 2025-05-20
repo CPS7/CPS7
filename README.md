@@ -95,7 +95,7 @@
     <a href="YOUR_VIDEO_EDITING_PORTFOLIO_LINK" title="My Video Editing Portfolio" target="_blank" style="text-decoration: none; display: inline-block; margin: 10px;">
       <img src="https://img.shields.io/badge/Video%20Editing-FF0000?style=for-the-badge&logo=adobe-premiere-pro&logoColor=white" alt="Video Editing" />
     </a>
-    <a href="YOUR_FREELANCING_PROFILE_LINK" title="My Freelancing Services" target="_blank" style="text-decoration: none; display: inline-block; margin: 10px;">
+    <a href="https://www.fiverr.com/lakshay_rastogi" title="My Freelancing Services" target="_blank" style="text-decoration: none; display: inline-block; margin: 10px;">
       <img src="https://img.shields.io/badge/Freelancing-00A86B?style=for-the-badge&logo=upwork&logoColor=white" alt="Freelancing" />
     </a>
   </p>
