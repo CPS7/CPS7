@@ -6,7 +6,7 @@
     CPS | Full-Stack Developer & AI Enthusiast
   </h1>
   <p style="font-size: 1.8em; color: #CCCCCC; margin-top: 20px; font-weight: 400; line-height: 1.6; font-family: 'sans-serif'; max-width: 900px;">
-    I specialize in **Python, AI-powered automation, Shopify setup, frontend development, and creative video editing**. I leverage AI to deliver fast, efficient, and polished solutions for startups, small businesses, and content creators.  
+    I specialize in **Python, Javascript, AI-powered automation, Shopify setup, frontend development, and creative video editing**. I leverage AI to deliver fast, efficient, and polished solutions for startups, small businesses, and content creators.  
     Currently building my portfolio, open for **freelance projects, collaborations, and AI-driven tech solutions**.
   </p>
 </div>
@@ -70,7 +70,7 @@
     Ready to Work Together? 💼
   </h2>
   <p style="font-size: 1.6em; line-height: 2; color: #CCCCCC; max-width: 850px; margin: 0 auto 30px auto;">
-    I deliver **AI-powered Python automation, Shopify setups, frontend & backend projects, and creative video solutions**. Open to freelance projects, collaborations, and AI-driven tech challenges.
+    I deliver **AI-powered Python automation, Javascript projects, Shopify setups, frontend & backend projects, and creative video solutions**. Open to freelance projects, collaborations, and AI-driven tech challenges.
   </p>
   <a href="https://www.fiverr.com/lakshay_rastogi" target="_blank" style="text-decoration: none;">
     <span style="display: inline-block; background-color: #10AF00; color: #FFFFFF; padding: 25px 60px; border-radius: 20px; font-size: 1.8em; font-weight: bold; box-shadow: 0 20px 60px rgba(16,175,0,0.7); text-transform: uppercase;">
