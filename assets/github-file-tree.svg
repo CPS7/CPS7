@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rowHover" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-gh { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+
+  <!-- Outer Frame (#0D1117 & #30363D) -->
+  <rect x="0.5" y="0.5" width="899" height="239" rx="6" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+
+  <!-- Table Header Bar (#161B22) -->
+  <path d="M 0.5,6.5 Q 0.5,0.5 6.5,0.5 L 893.5,0.5 Q 899.5,0.5 899.5,6.5 L 899.5,38 L 0.5,38 Z" fill="#161B22"/>
+  <line x1="0.5" y1="38" x2="899.5" y2="38" stroke="#30363D" stroke-width="1"/>
+
+  <!-- Commit Author & Message in Table Header -->
+  <g transform="translate(20, 24)">
+    <circle cx="10" cy="-1" r="9" fill="#21262D" stroke="#30363D"/>
+    <text x="10" y="3" text-anchor="middle" fill="#F0F6FC" class="font-gh" font-size="9" font-weight="700">CPS7</text>
+    <text x="28" y="3" fill="#F0F6FC" class="font-gh" font-size="12" font-weight="600">Lakshay Rastogi</text>
+    <text x="135" y="3" fill="#8B949E" class="font-gh" font-size="12">chore(release): architect high-performance distributed systems</text>
+  </g>
+  <g transform="translate(800, 24)">
+    <text x="0" y="3" fill="#8B949E" class="font-mono" font-size="11">latest commit</text>
+  </g>
+
+  <!-- Row 1: apps/web -->
+  <g transform="translate(0, 38)">
+    <line x1="0.5" y1="40" x2="899.5" y2="40" stroke="#21262D" stroke-width="1"/>
+    <!-- Folder Icon -->
+    <path fill="#58A6FF" transform="translate(24, 12) scale(0.9)" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.06 1.27 5.55 1 5 1H1.75z"/>
+    <text x="50" y="25" fill="#58A6FF" class="font-gh" font-size="13" font-weight="600">apps/web-platform</text>
+    <text x="280" y="25" fill="#8B949E" class="font-gh" font-size="12">feat: Next.js 15 App Router &amp; edge rendering platform</text>
+    <text x="820" y="25" fill="#8B949E" class="font-gh" font-size="11">yesterday</text>
+  </g>
+
+  <!-- Row 2: packages/core-cli -->
+  <g transform="translate(0, 78)">
+    <line x1="0.5" y1="40" x2="899.5" y2="40" stroke="#21262D" stroke-width="1"/>
+    <path fill="#58A6FF" transform="translate(24, 12) scale(0.9)" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.06 1.27 5.55 1 5 1H1.75z"/>
+    <text x="50" y="25" fill="#58A6FF" class="font-gh" font-size="13" font-weight="600">packages/expense-tracker-cli</text>
+    <text x="280" y="25" fill="#8B949E" class="font-gh" font-size="12">feat: SQLite local persistence &amp; analytical terminal reports</text>
+    <text x="820" y="25" fill="#8B949E" class="font-gh" font-size="11">3 days ago</text>
+  </g>
+
+  <!-- Row 3: infrastructure/audio -->
+  <g transform="translate(0, 118)">
+    <line x1="0.5" y1="40" x2="899.5" y2="40" stroke="#21262D" stroke-width="1"/>
+    <path fill="#58A6FF" transform="translate(24, 12) scale(0.9)" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.06 1.27 5.55 1 5 1H1.75z"/>
+    <text x="50" y="25" fill="#58A6FF" class="font-gh" font-size="13" font-weight="600">infrastructure/audio-node</text>
+    <text x="280" y="25" fill="#8B949E" class="font-gh" font-size="12">perf: distributed Lavalink streaming cluster orchestrator</text>
+    <text x="820" y="25" fill="#8B949E" class="font-gh" font-size="11">5 days ago</text>
+  </g>
+
+  <!-- Row 4: architecture.config.ts -->
+  <g transform="translate(0, 158)">
+    <line x1="0.5" y1="40" x2="899.5" y2="40" stroke="#21262D" stroke-width="1"/>
+    <!-- File Icon -->
+    <path fill="#8B949E" transform="translate(26, 12) scale(0.9)" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.586c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v9.086A1.75 1.75 0 0112.75 16h-9A1.75 1.75 0 012 14.25V1.75z"/>
+    <text x="50" y="25" fill="#F0F6FC" class="font-mono" font-size="12">architecture.manifest.ts</text>
+    <text x="280" y="25" fill="#8B949E" class="font-gh" font-size="12">chore: zero-dependency microservices &amp; contract validation</text>
+    <text x="820" y="25" fill="#8B949E" class="font-gh" font-size="11">1 week ago</text>
+  </g>
+
+  <!-- Row 5: package.json -->
+  <g transform="translate(0, 198)">
+    <path fill="#8B949E" transform="translate(26, 12) scale(0.9)" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.586c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v9.086A1.75 1.75 0 0112.75 16h-9A1.75 1.75 0 012 14.25V1.75z"/>
+    <text x="50" y="25" fill="#F0F6FC" class="font-mono" font-size="12">package.json</text>
+    <text x="280" y="25" fill="#8B949E" class="font-gh" font-size="12">build: TypeScript, Python, C++, Docker monorepo workspace</text>
+    <text x="820" y="25" fill="#8B949E" class="font-gh" font-size="11">2 weeks ago</text>
+  </g>
+</svg>

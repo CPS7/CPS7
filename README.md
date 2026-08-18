@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- GITHUB SPECIAL EDITION HERO BANNER (CENTER ALIGNED) -->
+<!-- GITHUB SPECIAL EDITION HERO BANNER -->
 <img src="assets/github-special-edition.svg" alt="GitHub Special Edition // Lakshay Rastogi (@CPS7)" width="100%" />
 
 <br/><br/>
@@ -17,6 +17,19 @@
 </table>
 
 <br/>
+
+<img src="assets/luxury-rule.svg" width="100%" />
+
+<br/><br/>
+
+<h2>📁 Repository Architecture &amp; File Tree</h2>
+<p>Production monorepo layout across applications, packages, infrastructure, and core engines.</p>
+
+<br/>
+
+<img src="assets/github-file-tree.svg" alt="GitHub File Explorer // @CPS7" width="100%" />
+
+<br/><br/>
 
 <img src="assets/luxury-rule.svg" width="100%" />
 
@@ -81,6 +94,19 @@
     </td>
   </tr>
 </table>
+
+<br/><br/>
+
+<img src="assets/luxury-rule.svg" width="100%" />
+
+<br/><br/>
+
+<h2>⚙️ Continuous Integration &amp; Deployment</h2>
+<p>Automated build matrix, distributed test suites, and zero-downtime global edge deployments.</p>
+
+<br/>
+
+<img src="assets/github-actions-workflow.svg" alt="GitHub Actions CI/CD Pipeline // @CPS7" width="100%" />
 
 <br/><br/>
 
