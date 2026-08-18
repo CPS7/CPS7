@@ -64,8 +64,8 @@
       50% { transform: translateY(-4px); }
     }
     @keyframes starkCorePulse {
-      0%, 100% { opacity: 0.85; transform: scale(1); }
-      50% { opacity: 1; transform: scale(1.15); }
+      0%, 100% { opacity: 0.8; }
+      50% { opacity: 1; }
     }
     @keyframes eyeOpticBeam {
       0%, 100% { opacity: 0.9; }
@@ -73,15 +73,13 @@
     }
 
     .ironman-suit {
-      animation: realisticLevitate 4s ease-in-out infinite;
-      transform-origin: center;
+      animation: realisticLevitate 3.5s ease-in-out infinite;
     }
     .reactor-core {
-      animation: starkCorePulse 2.5s ease-in-out infinite;
-      transform-origin: 0px 32px;
+      animation: starkCorePulse 2s ease-in-out infinite;
     }
     .optic-eyes {
-      animation: eyeOpticBeam 3s ease-in-out infinite;
+      animation: eyeOpticBeam 2.5s ease-in-out infinite;
     }
   </style>
 
@@ -202,52 +200,55 @@
   </g>
 
   <!-- RIGHT BOTTOM CORNER: REALISTIC METALLIC IRON MAN MARK LXXXV BUST -->
-  <g class="ironman-suit" transform="translate(852, 222) scale(1.05)">
-    <!-- Ambient Blue Energy Backglow -->
-    <circle cx="0" cy="20" r="18" fill="url(#starkCyan)" opacity="0.45" filter="url(#starkLaserGlow)"/>
+  <!-- Outer container with static positioning, inner container with animation to prevent CSS transform overrides -->
+  <g transform="translate(850, 222) scale(1.05)">
+    <g class="ironman-suit">
+      <!-- Ambient Blue Energy Backglow -->
+      <circle cx="0" cy="20" r="18" fill="url(#starkCyan)" opacity="0.45" filter="url(#starkLaserGlow)"/>
 
-    <!-- Realistic Armor Torso / Shoulders -->
-    <path d="M -22,26 L -16,14 L 16,14 L 22,26 L 16,40 L -16,40 Z" fill="url(#metallicCrimson)" stroke="#450A0A" stroke-width="0.8"/>
-    <!-- Collar Plate -->
-    <path d="M -10,14 L 10,14 L 8,24 L -8,24 Z" fill="url(#metallicCrimsonDark)"/>
-    
-    <!-- Gold Shoulder Highlights -->
-    <path d="M -20,16 L -14,14 L -12,24 L -18,25 Z" fill="url(#titaniumGold)"/>
-    <path d="M 20,16 L 14,14 L 12,24 L 18,25 Z" fill="url(#titaniumGold)"/>
+      <!-- Realistic Armor Torso / Shoulders -->
+      <path d="M -22,26 L -16,14 L 16,14 L 22,26 L 16,40 L -16,40 Z" fill="url(#metallicCrimson)" stroke="#450A0A" stroke-width="0.8"/>
+      <!-- Collar Plate -->
+      <path d="M -10,14 L 10,14 L 8,24 L -8,24 Z" fill="url(#metallicCrimsonDark)"/>
+      
+      <!-- Gold Shoulder Highlights -->
+      <path d="M -20,16 L -14,14 L -12,24 L -18,25 Z" fill="url(#titaniumGold)"/>
+      <path d="M 20,16 L 14,14 L 12,24 L 18,25 Z" fill="url(#titaniumGold)"/>
 
-    <!-- Realistic Stark Arc Reactor Core on Chest -->
-    <circle class="reactor-core" cx="0" cy="28" r="4.5" fill="url(#starkCyan)" filter="url(#starkLaserGlow)"/>
-    <circle cx="0" cy="28" r="2" fill="#FFFFFF"/>
-    <polygon points="0,25 3,29 -3,29" fill="none" stroke="#FFFFFF" stroke-width="0.5" opacity="0.9"/>
+      <!-- Realistic Stark Arc Reactor Core on Chest -->
+      <circle class="reactor-core" cx="0" cy="28" r="4.5" fill="url(#starkCyan)" filter="url(#starkLaserGlow)"/>
+      <circle cx="0" cy="28" r="2" fill="#FFFFFF"/>
+      <polygon points="0,25 3,29 -3,29" fill="none" stroke="#FFFFFF" stroke-width="0.5" opacity="0.9"/>
 
-    <!-- Realistic Iron Man Helmet -->
-    <!-- Helmet Red Crest & Outer Shell -->
-    <path d="M -15,-18 Q 0,-26 15,-18 L 17,-4 Q 18,8 12,16 L 0,20 L -12,16 Q -18,8 -17,-4 Z" fill="url(#metallicCrimson)" stroke="#450A0A" stroke-width="0.9"/>
+      <!-- Realistic Iron Man Helmet -->
+      <!-- Helmet Red Crest & Outer Shell -->
+      <path d="M -15,-18 Q 0,-26 15,-18 L 17,-4 Q 18,8 12,16 L 0,20 L -12,16 Q -18,8 -17,-4 Z" fill="url(#metallicCrimson)" stroke="#450A0A" stroke-width="0.9"/>
 
-    <!-- Ear Disc Assemblies -->
-    <circle cx="-16" cy="-2" r="3.5" fill="url(#titaniumGold)" stroke="#78350F" stroke-width="0.5"/>
-    <circle cx="16" cy="-2" r="3.5" fill="url(#titaniumGold)" stroke="#78350F" stroke-width="0.5"/>
-    <circle cx="-16" cy="-2" r="1.5" fill="#450A0A"/>
-    <circle cx="16" cy="-2" r="1.5" fill="#450A0A"/>
+      <!-- Ear Disc Assemblies -->
+      <circle cx="-16" cy="-2" r="3.5" fill="url(#titaniumGold)" stroke="#78350F" stroke-width="0.5"/>
+      <circle cx="16" cy="-2" r="3.5" fill="url(#titaniumGold)" stroke="#78350F" stroke-width="0.5"/>
+      <circle cx="-16" cy="-2" r="1.5" fill="#450A0A"/>
+      <circle cx="16" cy="-2" r="1.5" fill="#450A0A"/>
 
-    <!-- Titanium Gold Faceplate (Chiseled Geometry) -->
-    <!-- Forehead -->
-    <polygon points="-9,-18 9,-18 11,-10 -11,-10" fill="url(#titaniumGold)"/>
-    <!-- Central Brow Ridge & Cheeks -->
-    <path d="M -11,-10 L 11,-10 L 12,0 L 8,14 L 0,16 L -8,14 L -12,0 Z" fill="url(#titaniumGold)" stroke="#78350F" stroke-width="0.6"/>
-    <!-- Chin Plate -->
-    <polygon points="-5,14 5,14 3,17 -3,17" fill="url(#goldPlateDark)"/>
+      <!-- Titanium Gold Faceplate (Chiseled Geometry) -->
+      <!-- Forehead -->
+      <polygon points="-9,-18 9,-18 11,-10 -11,-10" fill="url(#titaniumGold)"/>
+      <!-- Central Brow Ridge & Cheeks -->
+      <path d="M -11,-10 L 11,-10 L 12,0 L 8,14 L 0,16 L -8,14 L -12,0 Z" fill="url(#titaniumGold)" stroke="#78350F" stroke-width="0.6"/>
+      <!-- Chin Plate -->
+      <polygon points="-5,14 5,14 3,17 -3,17" fill="url(#goldPlateDark)"/>
 
-    <!-- Brow Shadow Lines -->
-    <line x1="-10" y1="-5" x2="-2" y2="-2" stroke="#451A03" stroke-width="0.8"/>
-    <line x1="10" y1="-5" x2="2" y2="-2" stroke="#451A03" stroke-width="0.8"/>
+      <!-- Brow Shadow Lines -->
+      <line x1="-10" y1="-5" x2="-2" y2="-2" stroke="#451A03" stroke-width="0.8"/>
+      <line x1="10" y1="-5" x2="2" y2="-2" stroke="#451A03" stroke-width="0.8"/>
 
-    <!-- High-Intensity Cyan Optic Eyes -->
-    <polygon class="optic-eyes" points="-9,-2 -3,-0.5 -4,2.5 -9,1.5" fill="url(#starkCyan)" filter="url(#starkLaserGlow)"/>
-    <polygon class="optic-eyes" points="9,-2 3,-0.5 4,2.5 9,1.5" fill="url(#starkCyan)" filter="url(#starkLaserGlow)"/>
-    
-    <!-- White Core Light Beam Inside Eyes -->
-    <polygon points="-8,-1.5 -4,-0.5 -4.5,1.5 -8,1" fill="#FFFFFF"/>
-    <polygon points="8,-1.5 4,-0.5 4.5,1.5 8,1" fill="#FFFFFF"/>
+      <!-- High-Intensity Cyan Optic Eyes -->
+      <polygon class="optic-eyes" points="-9,-2 -3,-0.5 -4,2.5 -9,1.5" fill="url(#starkCyan)" filter="url(#starkLaserGlow)"/>
+      <polygon class="optic-eyes" points="9,-2 3,-0.5 4,2.5 9,1.5" fill="url(#starkCyan)" filter="url(#starkLaserGlow)"/>
+      
+      <!-- White Core Light Beam Inside Eyes -->
+      <polygon points="-8,-1.5 -4,-0.5 -4.5,1.5 -8,1" fill="#FFFFFF"/>
+      <polygon points="8,-1.5 4,-0.5 4.5,1.5 8,1" fill="#FFFFFF"/>
+    </g>
   </g>
 </svg>
