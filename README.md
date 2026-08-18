@@ -1,23 +1,16 @@
 <div align="center">
 
-<!-- BESPOKE GITHUB SPECIAL EDITION HERO BANNER -->
-<img src="assets/github-bespoke-hero.svg" alt="Lakshay Rastogi (@CPS7) | Full-Stack Developer &amp; Systems Builder" width="100%" />
+<!-- GITHUB SPECIAL EDITION HERO BANNER -->
+<img src="assets/github-special-edition.svg" alt="GitHub Special Edition // Lakshay Rastogi (@CPS7)" width="100%" />
 
 </div>
 
 <br/>
 
-### `whoami`
-
-I am **Lakshay Rastogi** (`@CPS7`), a full-stack engineer and systems architect. 
-
-I build software where architectural rigor matters as much as user experience. My work spans low-latency distributed backends, deterministic terminal CLIs, and modern web platforms engineered to scale seamlessly under heavy production load.
-
-```
-● Systems Built:   20+ Shipped Modules
-⚡ Core Focus:      Distributed Systems • Low-Latency APIs • Next.js Full-Stack
-📍 Status:          Active & Building • Open for High-Impact Roles & Collaborations
-```
+> [!NOTE]
+> **DEVELOPER DOSSIER // LAKSHAY RASTOGI (`@CPS7`)**
+> 
+> Full-stack engineer &amp; systems builder focused on low-latency backends, developer-first CLIs, and high-performance modern web platforms. Designing software where architecture matters as much as the interface.
 
 <br/>
 
@@ -156,7 +149,7 @@ I build software where architectural rigor matters as much as user experience. M
 
 <br/>
 
-## 📬 Connect & Direct Transmission
+## 📬 Connect & Collaborate
 
 Open for technical architecture discussions, senior/staff engineering opportunities, and ambitious open-source collaborations.
 
@@ -179,5 +172,5 @@ Open for technical architecture discussions, senior/staff engineering opportunit
   </a>
 
   <br/><br/>
-  <sub><b>Lakshay Rastogi (@CPS7)</b> • Engineered with care for GitHub • 2026</sub>
+  <sub><b>Lakshay Rastogi (@CPS7)</b> • GitHub Special Edition • 2026</sub>
 </div>
