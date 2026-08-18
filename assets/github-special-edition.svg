@@ -189,22 +189,22 @@
     </g>
 
     <!-- Pill 2: Stack -->
-    <g transform="translate(300, 0)">
+    <g transform="translate(275, 0)">
       <text x="0" y="0" fill="#8B949E" class="font-mono" font-size="10">RUNTIME</text>
       <text x="64" y="0" fill="#58A6FF" class="font-mono" font-size="12" font-weight="600">TypeScript • Python • C++ • Go</text>
     </g>
 
     <!-- Pill 3: Ecosystem -->
-    <g transform="translate(580, 0)">
+    <g transform="translate(530, 0)">
       <text x="0" y="0" fill="#8B949E" class="font-mono" font-size="10">ECOSYSTEM</text>
       <text x="76" y="0" fill="#3FB950" class="font-mono" font-size="12" font-weight="700">Distributed &amp; Next.js</text>
     </g>
   </g>
 
-  <!-- RIGHT BOTTOM: REALISTIC METALLIC IRON MAN MARK LXXXV BUST -->
-  <g class="ironman-suit" transform="translate(846, 226) scale(0.95)">
+  <!-- RIGHT BOTTOM CORNER: REALISTIC METALLIC IRON MAN MARK LXXXV BUST -->
+  <g class="ironman-suit" transform="translate(852, 222) scale(1.05)">
     <!-- Ambient Blue Energy Backglow -->
-    <circle cx="0" cy="20" r="18" fill="url(#starkCyan)" opacity="0.4" filter="url(#starkLaserGlow)"/>
+    <circle cx="0" cy="20" r="18" fill="url(#starkCyan)" opacity="0.45" filter="url(#starkLaserGlow)"/>
 
     <!-- Realistic Armor Torso / Shoulders -->
     <path d="M -22,26 L -16,14 L 16,14 L 22,26 L 16,40 L -16,40 Z" fill="url(#metallicCrimson)" stroke="#450A0A" stroke-width="0.8"/>
