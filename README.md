@@ -1,19 +1,25 @@
 <div align="center">
 
-<img src="assets/cps7-executive-header.svg" alt="Lakshay Rastogi | CPS7" width="100%" />
+<!-- GITHUB STORYTELLING GIT-GRAPH HERO BANNER -->
+<img src="assets/github-storytelling-hero.svg" alt="Lakshay Rastogi (@CPS7) | GitHub Storytelling Architecture" width="100%" />
 
 </div>
 
 <br/>
 
-## Overview
+## 📖 The Story So Far `git log --oneline`
 
-I am **Lakshay Rastogi** (`@CPS7`), a full-stack engineer and systems builder. I focus on building reliable software where thoughtful architecture matters as much as user experience — from initial concept through clean data design to production deployment.
+```bash
+* 7f9a2026 (HEAD -> main, release/v2026) Architecting high-throughput distributed platforms & next-gen web
+* 469fc7d feat(web): deploy optimistic UI and server-rendered micro-frontends (Next.js 15 / React 19)
+* 5ac5d44 feat(systems): build low-latency real-time audio & WebSocket streaming infrastructure
+* 2be59bf feat(cli): release Expense-Tracker-CLI with zero-friction SQLite persistence engine
+* 1ddfa69 init(genesis): "I build software where architecture matters as much as the interface."
+```
 
-I spend most of my time working across:
-- **Distributed Backends & Microservices**: Building low-latency APIs, asynchronous messaging pipelines, and resilient state handlers.
-- **Modern Full-Stack Applications**: Developing responsive, server-rendered web applications with React, Next.js, and TypeScript.
-- **Developer Tooling & CLIs**: Crafting deterministic, local-first command-line engines and utility frameworks.
+I am **Lakshay Rastogi** (`@CPS7`), a full-stack engineer and systems architect. 
+
+My journey as a developer is centered on one philosophy: **building software designed to survive real users**. I believe great engineering happens when low-level runtime efficiency, rock-solid data architecture, and intuitive user interfaces converge seamlessly.
 
 <br/>
 
@@ -23,16 +29,30 @@ I spend most of my time working across:
 
 <br/>
 
-## Engineering Focus & Approach
+## 🌿 Active Branches & Engineering Focus
 
-### 1. Architecture Over Syntax
-Syntax is transient; data flow and state boundaries define long-term maintainability. I prioritize clear domain modeling, explicit interfaces, and predictable data mutation over premature abstractions.
-
-### 2. Runtime Discipline & Latency
-Fast software comes from understanding execution paths. I focus on minimal memory overhead, efficient query planning, and multi-tiered caching strategies (in-memory + distributed key-value stores) to ensure responsive response envelopes.
-
-### 3. Resilient Fault Boundaries
-Production systems must tolerate failure gracefully. Network dependencies, external APIs, and persistent storage layers are isolated with circuit breakers, deterministic timeouts, and fallback mechanisms.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><code>branch: systems/distributed</code></h4>
+      <p>Building high-concurrency microservices, async message queues (Redis Streams), WebSocket real-time relays, and sub-millisecond execution backends.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><code>branch: fullstack/modern-web</code></h4>
+      <p>Crafting production-grade React 19 &amp; Next.js 15 platforms with server components, edge caching, and 100/100 Core Web Vitals.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><code>branch: core/developer-tooling</code></h4>
+      <p>Engineering deterministic terminal tools, fast CLI utilities, and local-first SQLite persistence engines with zero extraneous overhead.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><code>branch: ai/autonomous-pipelines</code></h4>
+      <p>Integrating context-aware LLM agents, vector similarity search, and automated background data processing workflows.</p>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -42,43 +62,47 @@ Production systems must tolerate failure gracefully. Network dependencies, exter
 
 <br/>
 
-## Selected Projects
+## 🚀 Flagship Pull Requests `git show release/*`
 
 <table>
   <thead>
     <tr>
-      <th width="35%" align="left">Project</th>
-      <th width="45%" align="left">Description</th>
-      <th width="20%" align="left">Stack</th>
+      <th width="35%" align="left">Repository &amp; PR</th>
+      <th width="45%" align="left">Architectural Highlights</th>
+      <th width="20%" align="left">Tech Stack</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <a href="https://github.com/CPS7/Expense-Tracker-CLI"><b>Expense-Tracker-CLI</b></a>
+        <a href="https://github.com/CPS7/Expense-Tracker-CLI"><b>🪙 Expense-Tracker-CLI</b></a><br/>
+        <sub><code>PR #1 • Shipped</code></sub>
       </td>
-      <td>A local-first terminal personal finance ledger engine with structured SQLite persistence, instant analytics generation, and structured reporting pipelines.</td>
+      <td>High-speed, zero-friction terminal ledger engine with local SQLite persistence, categorization filters, and instant report generation.</td>
       <td><code>C++</code> • <code>Python</code> • <code>SQLite</code></td>
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/CPS7"><b>Distributed Audio Infrastructure</b></a>
+        <a href="https://github.com/CPS7"><b>⚡ Distributed Audio Infrastructure</b></a><br/>
+        <sub><code>PR #2 • Production</code></sub>
       </td>
-      <td>Real-time streaming and event orchestration nodes integrated with Lavalink audio pipelines for low-latency distribution across concurrent consumer sessions.</td>
+      <td>Real-time streaming and event orchestration nodes integrated with Lavalink audio pipelines for zero-latency audio distribution.</td>
       <td><code>Node.js</code> • <code>WebSockets</code> • <code>Docker</code></td>
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/CPS7"><b>Modern Web Platforms</b></a>
+        <a href="https://github.com/CPS7"><b>🌐 Hyper-Responsive Web Platforms</b></a><br/>
+        <sub><code>PR #3 • Deployed</code></sub>
       </td>
-      <td>Production web applications built with Next.js 15, React 19, TypeScript, and edge caching for optimal Core Web Vitals and optimistic UI updates.</td>
+      <td>Production web applications built with Next.js 15, React 19, TypeScript, and edge caching for sub-10ms response times.</td>
       <td><code>Next.js</code> • <code>TypeScript</code> • <code>Tailwind</code></td>
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/CPS7"><b>Automation &amp; AI Pipelines</b></a>
+        <a href="https://github.com/CPS7"><b>🧠 Autonomous AI Pipelines</b></a><br/>
+        <sub><code>PR #4 • R&amp;D</code></sub>
       </td>
-      <td>Context-aware workflow automation integrating vector retrieval, structured LLM function calling, and automated data processing pipelines.</td>
+      <td>Intelligent data extractors and autonomous agents using embedding vectors, structured function calls, and async background queues.</td>
       <td><code>Python</code> • <code>FastAPI</code> • <code>Vector DB</code></td>
     </tr>
   </tbody>
@@ -92,14 +116,21 @@ Production systems must tolerate failure gracefully. Network dependencies, exter
 
 <br/>
 
-## Technical Arsenal
+## 📦 Package Manifest `package.json`
 
-```
-Languages     :: TypeScript, JavaScript, Python, C++, Go, SQL
-Frontend      :: React 19, Next.js 15, TailwindCSS, HTML5/CSS3, WebSockets
-Backend       :: Node.js, Express, FastAPI, RESTful APIs, GraphQL
-Databases     :: PostgreSQL, SQLite, Redis, MongoDB
-DevOps & Cloud:: Docker, Git, GitHub Actions, Linux, Cloudflare Workers, Vercel
+```json
+{
+  "name": "@cps7/engineering-arsenal",
+  "version": "2026.1.0",
+  "author": "Lakshay Rastogi <contact@cps7.dev>",
+  "dependencies": {
+    "languages": ["TypeScript", "JavaScript", "Python", "C++", "Go", "SQL"],
+    "frontend": ["React 19", "Next.js 15", "TailwindCSS", "HTML5/CSS3", "WebSockets"],
+    "backend": ["Node.js", "Express", "FastAPI", "RESTful APIs", "GraphQL"],
+    "databases": ["PostgreSQL", "SQLite", "Redis", "MongoDB"],
+    "infrastructure": ["Docker", "Git", "GitHub Actions", "Linux", "Cloudflare Workers", "Vercel"]
+  }
+}
 ```
 
 <br/>
@@ -110,16 +141,16 @@ DevOps & Cloud:: Docker, Git, GitHub Actions, Linux, Cloudflare Workers, Vercel
 
 <br/>
 
-## Activity & Velocity
+## 📊 Contribution Velocity & Telemetry
 
 <div align="center">
   <table border="0" cellspacing="0" cellpadding="0">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=CPS7&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=D69E2E&icon_color=D69E2E&text_color=94A3B8" alt="GitHub Stats" height="165" />
+        <img src="https://github-readme-stats.vercel.app/api?username=CPS7&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=3FB950&text_color=8B949E" alt="GitHub Stats" height="165" />
       </td>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CPS7&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=D69E2E&text_color=94A3B8" alt="Top Languages" height="165" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CPS7&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E" alt="Top Languages" height="165" />
       </td>
     </tr>
   </table>
@@ -133,17 +164,34 @@ DevOps & Cloud:: Docker, Git, GitHub Actions, Linux, Cloudflare Workers, Vercel
 
 <br/>
 
-## Contact & Collaboration
+## 📡 Remote Origin `git remote -v`
 
-Open to discussing software architecture, senior engineering opportunities, and ambitious open-source projects.
+Open for technical architecture discussions, senior/staff engineering opportunities, and ambitious collaborations.
 
-- **GitHub**: [@CPS7](https://github.com/CPS7)
-- **LinkedIn**: [Lakshay Rastogi](https://linkedin.com/in/)
-- **X / Twitter**: [@CPS7](https://twitter.com/)
-- **Email**: [contact@cps7.dev](mailto:contact@cps7.dev)
-
-<br/>
+```bash
+git remote add linkedin  https://linkedin.com/in/
+git remote add twitter   https://twitter.com/
+git remote add email     mailto:contact@cps7.dev
+```
 
 <div align="center">
-  <sub>© 2026 Lakshay Rastogi • Engineered with care</sub>
+  <br/>
+  <a href="https://github.com/CPS7">
+    <img src="https://img.shields.io/badge/GitHub-@CPS7-21262D?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/">
+    <img src="https://img.shields.io/badge/LinkedIn-Lakshay_Rastogi-21262D?style=flat-square&logo=linkedin&logoColor=58A6FF" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://twitter.com/">
+    <img src="https://img.shields.io/badge/X_Platform-@CPS7-21262D?style=flat-square&logo=x&logoColor=white" alt="Twitter" />
+  </a>
+  &nbsp;
+  <a href="mailto:contact@cps7.dev">
+    <img src="https://img.shields.io/badge/Email-contact@cps7.dev-21262D?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email" />
+  </a>
+
+  <br/><br/>
+  <sub><b>@CPS7</b> • Architected with precision for GitHub • 2026</sub>
 </div>
