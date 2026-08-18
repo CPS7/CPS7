@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 180" width="100%" height="100%">
+  <defs>
+    <linearGradient id="thinkBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E131E"/>
+      <stop offset="100%" stop-color="#070A10"/>
+    </linearGradient>
+    <linearGradient id="thinkBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.03"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
+    }
+    .font-mono {
+      font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', monospace;
+    }
+  </style>
+
+  <!-- CARD 1: Architecture Before Syntax -->
+  <g transform="translate(0, 0)">
+    <rect x="0" y="0" width="270" height="180" rx="12" fill="url(#thinkBg)" stroke="url(#thinkBorder)" stroke-width="1"/>
+    <text x="20" y="32" fill="#F5CD79" class="font-mono" font-size="10" font-weight="700" letter-spacing="1">LAW 01 • DATA FLOW</text>
+    <text x="20" y="56" fill="#FFFFFF" class="font-sans" font-size="15" font-weight="700">Architecture &gt; Syntax</text>
+    <text x="20" y="84" fill="#94A3B8" class="font-sans" font-size="11.5">
+      Syntax is cheap; state topology is everything. I map data flows, lifecycle boundaries, and concurrency models before writing the first line of code.
+    </text>
+  </g>
+
+  <!-- CARD 2: Zero-Allocation & Latency -->
+  <g transform="translate(290, 0)">
+    <rect x="0" y="0" width="270" height="180" rx="12" fill="url(#thinkBg)" stroke="url(#thinkBorder)" stroke-width="1"/>
+    <text x="20" y="32" fill="#38BDF8" class="font-mono" font-size="10" font-weight="700" letter-spacing="1">LAW 02 • RUNTIME DISCIPLINE</text>
+    <text x="20" y="56" fill="#FFFFFF" class="font-sans" font-size="15" font-weight="700">Defend Every Millisecond</text>
+    <text x="20" y="84" fill="#94A3B8" class="font-sans" font-size="11.5">
+      Eliminating wasteful memory allocations and redundant network hops. Fast software is born from intentional memory hygiene and cache-friendly design.
+    </text>
+  </g>
+
+  <!-- CARD 3: Defensive Resilience -->
+  <g transform="translate(580, 0)">
+    <rect x="0" y="0" width="270" height="180" rx="12" fill="url(#thinkBg)" stroke="url(#thinkBorder)" stroke-width="1"/>
+    <text x="20" y="32" fill="#34D399" class="font-mono" font-size="10" font-weight="700" letter-spacing="1">LAW 03 • PRODUCTION REALITY</text>
+    <text x="20" y="56" fill="#FFFFFF" class="font-sans" font-size="15" font-weight="700">Survive Real Users</text>
+    <text x="20" y="84" fill="#94A3B8" class="font-sans" font-size="11.5">
+      Prototypes fail when tested by reality. Every module is fortified with circuit breakers, exponential backoff, and graceful degradation fallback loops.
+    </text>
+  </g>
+</svg>
