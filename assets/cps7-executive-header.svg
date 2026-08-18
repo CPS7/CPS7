@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="100%">
+  <defs>
+    <!-- Matte Obsidian Canvas -->
+    <linearGradient id="canvasGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E1117"/>
+      <stop offset="100%" stop-color="#080A0E"/>
+    </linearGradient>
+
+    <!-- Platinum Typography Gradient -->
+    <linearGradient id="textPlatinum" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+
+    <!-- Warm Champagne Gold Accent -->
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F6E05E"/>
+      <stop offset="50%" stop-color="#D69E2E"/>
+      <stop offset="100%" stop-color="#975A16"/>
+    </linearGradient>
+
+    <!-- Whisper-thin Hairline Border -->
+    <linearGradient id="hairlineBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.03"/>
+      <stop offset="25%" stop-color="#FFFFFF" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#D69E2E" stop-opacity="0.5"/>
+      <stop offset="75%" stop-color="#FFFFFF" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.03"/>
+    </linearGradient>
+
+    <!-- Subtle Ambient Glow -->
+    <filter id="subtleAura" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes lightSweep {
+      0% { transform: translateX(-900px); }
+      100% { transform: translateX(900px); }
+    }
+    @keyframes pulseDot {
+      0%, 100% { opacity: 0.9; }
+      50% { opacity: 0.3; }
+    }
+    .sweep-line {
+      animation: lightSweep 7s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    .live-dot {
+      animation: pulseDot 2.5s ease-in-out infinite;
+    }
+    .font-serif-display {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Roboto, sans-serif;
+    }
+    .font-mono {
+      font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', Menlo, monospace;
+    }
+  </style>
+
+  <!-- Base Plate -->
+  <rect x="1" y="1" width="898" height="238" rx="14" fill="url(#canvasGrad)" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- Subtle Warm Ambient Radial -->
+  <circle cx="120" cy="120" r="100" fill="#D69E2E" opacity="0.04" filter="url(#subtleAura)"/>
+  <circle cx="780" cy="120" r="100" fill="#3B82F6" opacity="0.03" filter="url(#subtleAura)"/>
+
+  <!-- Top Hairline Light Sweep -->
+  <g>
+    <line class="sweep-line" x1="0" y1="1" x2="900" y2="1" stroke="url(#hairlineBorder)" stroke-width="2"/>
+  </g>
+
+  <!-- Left Architectural Hallmark Seal -->
+  <g transform="translate(48, 52)">
+    <rect x="0" y="0" width="68" height="68" rx="14" fill="#131720" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1"/>
+    <text x="34" y="41" text-anchor="middle" fill="url(#textPlatinum)" class="font-serif-display" font-size="20" font-weight="800" letter-spacing="1">CPS</text>
+    <text x="34" y="55" text-anchor="middle" fill="#D69E2E" class="font-mono" font-size="10" font-weight="700">7</text>
+  </g>
+
+  <!-- Main Identity Header -->
+  <g transform="translate(136, 60)">
+    <!-- Small Category Label -->
+    <text x="0" y="0" fill="#64748B" class="font-mono" font-size="11" font-weight="600" letter-spacing="3">ENGINEERING &amp; SYSTEMS ARCHITECTURE</text>
+    
+    <!-- Primary Name (Clean, Authoritative, Premium) -->
+    <text x="0" y="34" fill="url(#textPlatinum)" class="font-serif-display" font-size="34" font-weight="800" letter-spacing="-0.5">Lakshay Rastogi</text>
+
+    <!-- Tagline (Honest, Mature, Precise) -->
+    <text x="0" y="62" fill="#94A3B8" class="font-serif-display" font-size="15" font-weight="400">
+      Building robust full-stack platforms, distributed services &amp; developer tools.
+    </text>
+  </g>
+
+  <!-- Right Minimalist Status Badge -->
+  <g transform="translate(710, 48)">
+    <rect x="0" y="0" width="142" height="26" rx="13" fill="#121620" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <circle class="live-dot" cx="14" cy="13" r="3.5" fill="#10B981"/>
+    <text x="26" y="16.5" fill="#E2E8F0" class="font-mono" font-size="10" font-weight="600" letter-spacing="1">OPEN TO BUILD</text>
+  </g>
+
+  <!-- Bottom Divider Line -->
+  <line x1="48" y1="168" x2="852" y2="168" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1"/>
+
+  <!-- Bottom Competence Markers -->
+  <g transform="translate(48, 198)">
+    <!-- Marker 1 -->
+    <g>
+      <text x="0" y="0" fill="#D69E2E" class="font-mono" font-size="11" font-weight="700">01</text>
+      <text x="24" y="0" fill="#CBD5E1" class="font-serif-display" font-size="13" font-weight="500">Distributed Backends</text>
+    </g>
+
+    <!-- Marker 2 -->
+    <g transform="translate(220, 0)">
+      <text x="0" y="0" fill="#D69E2E" class="font-mono" font-size="11" font-weight="700">02</text>
+      <text x="24" y="0" fill="#CBD5E1" class="font-serif-display" font-size="13" font-weight="500">Full-Stack Platforms</text>
+    </g>
+
+    <!-- Marker 3 -->
+    <g transform="translate(440, 0)">
+      <text x="0" y="0" fill="#D69E2E" class="font-mono" font-size="11" font-weight="700">03</text>
+      <text x="24" y="0" fill="#CBD5E1" class="font-serif-display" font-size="13" font-weight="500">Developer CLI Tooling</text>
+    </g>
+
+    <!-- Marker 4 -->
+    <g transform="translate(650, 0)">
+      <text x="0" y="0" fill="#D69E2E" class="font-mono" font-size="11" font-weight="700">04</text>
+      <text x="24" y="0" fill="#CBD5E1" class="font-serif-display" font-size="13" font-weight="500">High-Performance APIs</text>
+    </g>
+  </g>
+</svg>
