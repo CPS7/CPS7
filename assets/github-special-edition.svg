@@ -1,20 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 270" width="100%" height="100%">
   <defs>
-    <!-- GitHub Pure Canvas -->
-    <linearGradient id="ghCanvasBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#161B22"/>
-      <stop offset="40%" stop-color="#0D1117"/>
-      <stop offset="100%" stop-color="#080A0E"/>
-    </linearGradient>
-
-    <!-- Platinum Logo Fill -->
+    <!-- Clean Platinum Logo Fill -->
     <linearGradient id="logoPure" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF"/>
       <stop offset="100%" stop-color="#F0F6FC"/>
     </linearGradient>
 
     <filter id="skylineGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
   </defs>
@@ -28,29 +21,30 @@
     }
   </style>
 
-  <!-- GitHub Base Card -->
-  <rect x="1" y="1" width="898" height="268" rx="12" fill="url(#ghCanvasBg)" stroke="#30363D" stroke-width="1.2"/>
+  <!-- Real GitHub Dark Mode Box Card (6px radius, #0D1117 background, #30363D border) -->
+  <rect x="0.5" y="0.5" width="899" height="269" rx="6" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
 
-  <!-- TOP STATUS / REPO PATH BAR (CLEAN & PURE GITHUB) -->
-  <g transform="translate(36, 26)">
+  <!-- Top GitHub Header Bar (#161B22) -->
+  <path d="M 0.5,6.5 Q 0.5,0.5 6.5,0.5 L 893.5,0.5 Q 899.5,0.5 899.5,6.5 L 899.5,42 L 0.5,42 Z" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+  <line x1="0.5" y1="42" x2="899.5" y2="42" stroke="#30363D" stroke-width="1"/>
+
+  <!-- Top GitHub Header Content -->
+  <g transform="translate(24, 26)">
     <!-- Real Official GitHub Invertocat Vector Logo -->
-    <path fill="#F0F6FC" transform="scale(1.25)" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+    <path fill="#F0F6FC" transform="translate(0, -12) scale(1.2)" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
     
-    <text x="30" y="15" fill="#8B949E" class="font-mono" font-size="12">
+    <text x="28" y="1" fill="#8B949E" class="font-mono" font-size="12">
       <tspan fill="#58A6FF" font-weight="600">github.com</tspan> / <tspan fill="#F0F6FC" font-weight="600">CPS7</tspan>
     </text>
   </g>
 
-  <!-- TOP DIVIDER -->
-  <line x1="36" y1="52" x2="864" y2="52" stroke="#30363D" stroke-width="1"/>
-
-  <!-- CENTER IDENTITY AREA -->
-  <g transform="translate(36, 72)">
+  <!-- CENTER IDENTITY AREA (#0D1117) -->
+  <g transform="translate(28, 64)">
     <!-- GitHub Circle Avatar with GitHub Logo Background & CPS7 Mark -->
     <g>
       <!-- Circle Frame -->
-      <circle cx="45" cy="45" r="45" fill="#21262D" stroke="#30363D" stroke-width="2"/>
-      <circle cx="45" cy="45" r="42" fill="#0D1117"/>
+      <circle cx="45" cy="45" r="45" fill="#21262D" stroke="#30363D" stroke-width="1.5"/>
+      <circle cx="45" cy="45" r="43" fill="#0D1117"/>
       
       <!-- Official GitHub Invertocat Silhouette as Background inside Avatar -->
       <path fill="#21262D" stroke="#30363D" stroke-width="0.5" transform="translate(15, 15) scale(3.75)" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
@@ -61,7 +55,7 @@
 
     <!-- Main Title & Bio Details -->
     <g transform="translate(112, 10)">
-      <!-- Name & Handle (Relative Flow) -->
+      <!-- Name & Handle (Perfect Relative Flow) -->
       <text x="0" y="24" class="font-gh">
         <tspan fill="#F0F6FC" font-size="28" font-weight="800" letter-spacing="-0.5">Lakshay Rastogi</tspan>
         <tspan dx="12" fill="#58A6FF" class="font-mono" font-size="15" font-weight="600">@CPS7</tspan>
@@ -79,8 +73,8 @@
     </g>
 
     <!-- RIGHT: GITHUB SKYLINE CONTRIBUTION 3D BARS -->
-    <g transform="translate(560, 6)" filter="url(#skylineGlow)">
-      <rect x="0" y="0" width="268" height="92" rx="8" fill="#161B22" stroke="#30363D"/>
+    <g transform="translate(570, 6)" filter="url(#skylineGlow)">
+      <rect x="0" y="0" width="276" height="92" rx="6" fill="#161B22" stroke="#30363D"/>
       
       <text x="14" y="20" fill="#8B949E" class="font-mono" font-size="9" font-weight="600">GITHUB CONTRIBUTION SKYLINE</text>
       <text x="14" y="36" fill="#58A6FF" class="font-mono" font-size="12" font-weight="700">52-Week Velocity Matrix</text>
@@ -114,14 +108,16 @@
         <rect x="216" y="6" width="6" height="30" rx="1.5" fill="#26A641"/>
         <rect x="225" y="0" width="6" height="36" rx="1.5" fill="#39D353"/>
         <rect x="234" y="10" width="6" height="26" rx="1.5" fill="#26A641"/>
+        <rect x="243" y="0" width="6" height="36" rx="1.5" fill="#39D353"/>
       </g>
     </g>
   </g>
 
-  <!-- LOWER METADATA TELEMETRY BAR -->
-  <line x1="36" y1="195" x2="864" y2="195" stroke="#30363D" stroke-width="1"/>
+  <!-- LOWER METADATA BAR (#161B22, exact GitHub sub-surface) -->
+  <line x1="0.5" y1="210" x2="899.5" y2="210" stroke="#30363D" stroke-width="1"/>
+  <path d="M 0.5,210 L 899.5,210 L 899.5,263.5 Q 899.5,269.5 893.5,269.5 L 6.5,269.5 Q 0.5,269.5 0.5,263.5 Z" fill="#161B22"/>
 
-  <g transform="translate(36, 226)">
+  <g transform="translate(28, 246)">
     <!-- Pill 1: Repos -->
     <g>
       <text x="0" y="0" fill="#8B949E" class="font-mono" font-size="10">REPOSITORIES</text>
@@ -135,7 +131,7 @@
     </g>
 
     <!-- Pill 3: Ecosystem -->
-    <g transform="translate(640, 0)">
+    <g transform="translate(650, 0)">
       <text x="0" y="0" fill="#8B949E" class="font-mono" font-size="10">ECOSYSTEM</text>
       <text x="76" y="0" fill="#3FB950" class="font-mono" font-size="12" font-weight="700">Distributed &amp; Next.js</text>
     </g>
