@@ -28,49 +28,49 @@
   <path d="M 0.5,6.5 Q 0.5,0.5 6.5,0.5 L 893.5,0.5 Q 899.5,0.5 899.5,6.5 L 899.5,42 L 0.5,42 Z" fill="#161B22" stroke="#30363D" stroke-width="1"/>
   <line x1="0.5" y1="42" x2="899.5" y2="42" stroke="#30363D" stroke-width="1"/>
 
-  <!-- Top GitHub Centered Header Content -->
+  <!-- Perfectly Centered Top Header Content -->
   <g transform="translate(450, 26)">
     <!-- Real Official GitHub Invertocat Vector Logo -->
-    <path fill="#F0F6FC" transform="translate(-85, -12) scale(1.2)" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+    <path fill="#F0F6FC" transform="translate(-76, -11) scale(1.15)" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
     
-    <text x="-58" y="1" fill="#8B949E" class="font-mono" font-size="12">
+    <text x="-50" y="1" fill="#8B949E" class="font-mono" font-size="12">
       <tspan fill="#58A6FF" font-weight="600">github.com</tspan> / <tspan fill="#F0F6FC" font-weight="600">CPS7</tspan>
     </text>
   </g>
 
   <!-- CENTER-ALIGNED IDENTITY AREA (#0D1117) -->
-  <g transform="translate(450, 58)">
+  <g transform="translate(450, 50)">
     <!-- GitHub Circle Avatar in Center -->
-    <g transform="translate(0, 42)">
+    <g transform="translate(0, 36)">
       <!-- Circle Frame -->
-      <circle cx="0" cy="0" r="38" fill="#21262D" stroke="#30363D" stroke-width="1.5"/>
-      <circle cx="0" cy="0" r="36" fill="#0D1117"/>
+      <circle cx="0" cy="0" r="36" fill="#21262D" stroke="#30363D" stroke-width="1.5"/>
+      <circle cx="0" cy="0" r="34" fill="#0D1117"/>
       
       <!-- Official GitHub Invertocat Silhouette as Background inside Avatar -->
-      <path fill="#21262D" stroke="#30363D" stroke-width="0.5" transform="translate(-25, -25) scale(3.1)" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+      <path fill="#21262D" stroke="#30363D" stroke-width="0.5" transform="translate(-23, -23) scale(2.9)" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
 
       <!-- Clean Bold CPS7 Text Layered Over Logo -->
-      <text x="0" y="7" text-anchor="middle" fill="url(#logoPure)" class="font-gh" font-size="20" font-weight="900" letter-spacing="1">CPS7</text>
+      <text x="0" y="7" text-anchor="middle" fill="url(#logoPure)" class="font-gh" font-size="19" font-weight="900" letter-spacing="1">CPS7</text>
     </g>
 
     <!-- Main Title & Bio Details (Symmetrically Centered) -->
-    <g transform="translate(0, 102)">
+    <g transform="translate(0, 92)">
       <!-- Name -->
       <text x="0" y="16" text-anchor="middle" fill="#F0F6FC" class="font-gh" font-size="28" font-weight="800" letter-spacing="-0.5">Lakshay Rastogi</text>
 
       <!-- Handle & Role Subtitle -->
-      <text x="0" y="42" text-anchor="middle" fill="#8B949E" class="font-gh" font-size="14" font-weight="500">
+      <text x="0" y="40" text-anchor="middle" fill="#8B949E" class="font-gh" font-size="14" font-weight="500">
         <tspan fill="#58A6FF" font-weight="600" class="font-mono">@CPS7</tspan> • Full-Stack Engineer &amp; Systems Builder
       </text>
 
       <!-- Tagline / Manifesto -->
-      <text x="0" y="66" text-anchor="middle" fill="#C9D1D9" class="font-gh" font-size="13">
+      <text x="0" y="64" text-anchor="middle" fill="#C9D1D9" class="font-gh" font-size="13">
         "Building software where architecture matters as much as the interface."
       </text>
     </g>
 
     <!-- CENTERED GITHUB CONTRIBUTION SKYLINE 3D MATRIX -->
-    <g transform="translate(-165, 182)" filter="url(#skylineGlow)">
+    <g transform="translate(-165, 178)" filter="url(#skylineGlow)">
       <!-- 3D Skyline Wave Bars -->
       <rect x="0" y="14" width="6" height="18" rx="1.5" fill="#0E4429"/>
       <rect x="9" y="8" width="6" height="24" rx="1.5" fill="#006D32"/>

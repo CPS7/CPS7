@@ -3,27 +3,31 @@
 <!-- GITHUB SPECIAL EDITION HERO BANNER (CENTER ALIGNED) -->
 <img src="assets/github-special-edition.svg" alt="GitHub Special Edition // Lakshay Rastogi (@CPS7)" width="100%" />
 
-</div>
+<br/><br/>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">
+      <blockquote>
+        <b>DEVELOPER DOSSIER // LAKSHAY RASTOGI (<code>@CPS7</code>)</b><br/>
+        Full-stack engineer &amp; systems builder focused on low-latency backends, developer-first CLIs, and high-performance modern web platforms. Designing software where architecture matters as much as the interface.
+      </blockquote>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
-> [!NOTE]
-> **DEVELOPER DOSSIER // LAKSHAY RASTOGI (`@CPS7`)**
-> 
-> Full-stack engineer &amp; systems builder focused on low-latency backends, developer-first CLIs, and high-performance modern web platforms. Designing software where architecture matters as much as the interface.
+<img src="assets/luxury-rule.svg" width="100%" />
+
+<br/><br/>
+
+<h2>📌 Pinned Repositories</h2>
+<p>Architectural highlights across systems engineering, distributed infrastructure, and web platforms.</p>
 
 <br/>
 
-<div align="center">
-  <img src="assets/luxury-rule.svg" width="100%" />
-</div>
-
-<br/>
-
-<h2 align="center">📌 Pinned Repositories</h2>
-<p align="center">Architectural highlights across systems engineering, distributed infrastructure, and web platforms.</p>
-
-<table>
+<table width="100%">
   <tr>
     <td width="50%" valign="top">
       <div align="left">
@@ -78,100 +82,96 @@
   </tr>
 </table>
 
+<br/><br/>
+
+<img src="assets/luxury-rule.svg" width="100%" />
+
+<br/><br/>
+
+<h2>🛠️ Technical Arsenal</h2>
+<p>Primary languages, frameworks, runtime engines, and infrastructure toolchains.</p>
+
 <br/>
 
-<div align="center">
-  <img src="assets/luxury-rule.svg" width="100%" />
-</div>
-
-<br/>
-
-<h2 align="center">🛠️ Technical Arsenal</h2>
-<p align="center">Primary languages, frameworks, runtime engines, and infrastructure toolchains.</p>
-
-<table align="center">
+<table width="100%">
   <thead>
     <tr>
-      <th width="25%" align="left">Domain</th>
-      <th width="75%" align="left">Technologies &amp; Tools</th>
+      <th width="30%" align="center">Domain</th>
+      <th width="70%" align="left">Technologies &amp; Tools</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><b>Languages</b></td>
+      <td align="center"><b>Languages</b></td>
       <td><code>TypeScript</code> • <code>JavaScript</code> • <code>Python</code> • <code>C++</code> • <code>Go</code> • <code>SQL</code></td>
     </tr>
     <tr>
-      <td><b>Frontend</b></td>
+      <td align="center"><b>Frontend</b></td>
       <td><code>React 19</code> • <code>Next.js 15</code> • <code>TailwindCSS</code> • <code>HTML5/CSS3</code> • <code>WebSockets</code></td>
     </tr>
     <tr>
-      <td><b>Backend &amp; APIs</b></td>
+      <td align="center"><b>Backend &amp; APIs</b></td>
       <td><code>Node.js</code> • <code>Express</code> • <code>FastAPI</code> • <code>RESTful APIs</code> • <code>GraphQL</code></td>
     </tr>
     <tr>
-      <td><b>Data &amp; Persistence</b></td>
+      <td align="center"><b>Data &amp; Persistence</b></td>
       <td><code>PostgreSQL</code> • <code>SQLite</code> • <code>Redis</code> • <code>MongoDB</code></td>
     </tr>
     <tr>
-      <td><b>Cloud &amp; DevOps</b></td>
+      <td align="center"><b>Cloud &amp; DevOps</b></td>
       <td><code>Docker</code> • <code>Git / GitHub Actions</code> • <code>Linux</code> • <code>Cloudflare</code> • <code>Vercel</code></td>
     </tr>
   </tbody>
 </table>
 
-<br/>
+<br/><br/>
 
-<div align="center">
-  <img src="assets/luxury-rule.svg" width="100%" />
-</div>
+<img src="assets/luxury-rule.svg" width="100%" />
 
-<br/>
+<br/><br/>
 
-<h2 align="center">📊 Contribution Velocity &amp; Telemetry</h2>
-
-<div align="center">
-  <table border="0" cellspacing="0" cellpadding="0">
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=CPS7&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=3FB950&text_color=8B949E" alt="GitHub Stats" height="165" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CPS7&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E" alt="Top Languages" height="165" />
-      </td>
-    </tr>
-  </table>
-</div>
+<h2>📊 Contribution Velocity &amp; Telemetry</h2>
 
 <br/>
 
-<div align="center">
-  <img src="assets/luxury-rule.svg" width="100%" />
-</div>
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=CPS7&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=3FB950&text_color=8B949E" alt="GitHub Stats" height="165" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CPS7&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E" alt="Top Languages" height="165" />
+    </td>
+  </tr>
+</table>
+
+<br/><br/>
+
+<img src="assets/luxury-rule.svg" width="100%" />
+
+<br/><br/>
+
+<h2>📬 Connect &amp; Collaborate</h2>
+<p>Open for technical architecture discussions, senior engineering opportunities, and ambitious open-source collaborations.</p>
 
 <br/>
+<a href="https://github.com/CPS7">
+  <img src="https://img.shields.io/badge/GitHub-@CPS7-21262D?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+</a>
+&nbsp;
+<a href="https://linkedin.com/in/">
+  <img src="https://img.shields.io/badge/LinkedIn-Lakshay_Rastogi-21262D?style=flat-square&logo=linkedin&logoColor=58A6FF" alt="LinkedIn" />
+</a>
+&nbsp;
+<a href="https://twitter.com/">
+  <img src="https://img.shields.io/badge/X_Platform-@CPS7-21262D?style=flat-square&logo=x&logoColor=white" alt="Twitter" />
+</a>
+&nbsp;
+<a href="mailto:contact@cps7.dev">
+  <img src="https://img.shields.io/badge/Email-contact@cps7.dev-21262D?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email" />
+</a>
 
-<div align="center">
-  <h2>📬 Connect &amp; Collaborate</h2>
-  <p>Open for technical architecture discussions, senior engineering opportunities, and ambitious open-source collaborations.</p>
+<br/><br/>
+<sub><b>Lakshay Rastogi (@CPS7)</b> • GitHub Special Edition • 2026</sub>
 
-  <br/>
-  <a href="https://github.com/CPS7">
-    <img src="https://img.shields.io/badge/GitHub-@CPS7-21262D?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/">
-    <img src="https://img.shields.io/badge/LinkedIn-Lakshay_Rastogi-21262D?style=flat-square&logo=linkedin&logoColor=58A6FF" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="https://twitter.com/">
-    <img src="https://img.shields.io/badge/X_Platform-@CPS7-21262D?style=flat-square&logo=x&logoColor=white" alt="Twitter" />
-  </a>
-  &nbsp;
-  <a href="mailto:contact@cps7.dev">
-    <img src="https://img.shields.io/badge/Email-contact@cps7.dev-21262D?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email" />
-  </a>
-
-  <br/><br/>
-  <sub><b>Lakshay Rastogi (@CPS7)</b> • GitHub Special Edition • 2026</sub>
 </div>
