@@ -120,9 +120,9 @@
   <g transform="translate(450, 302)">
     <text x="0" y="0" text-anchor="middle" class="font-mono" font-size="11">
       <tspan fill="#8B949E">REPOSITORIES:</tspan> <tspan fill="#F0F6FC" font-weight="700">20+ Shipped Modules</tspan>
-      <tspan fill="#484F58"> &nbsp;•&nbsp; </tspan>
+      <tspan fill="#484F58"> &#160;•&#160; </tspan>
       <tspan fill="#8B949E">STACK:</tspan> <tspan fill="#58A6FF" font-weight="600">TypeScript • Python • C++ • Go</tspan>
-      <tspan fill="#484F58"> &nbsp;•&nbsp; </tspan>
+      <tspan fill="#484F58"> &#160;•&#160; </tspan>
       <tspan fill="#8B949E">ECOSYSTEM:</tspan> <tspan fill="#3FB950" font-weight="700">Distributed &amp; Next.js</tspan>
     </text>
   </g>

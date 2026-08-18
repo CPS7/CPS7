@@ -137,10 +137,7 @@
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=CPS7&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=3FB950&text_color=8B949E" alt="GitHub Stats" height="165" />
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CPS7&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E" alt="Top Languages" height="165" />
+      <img src="https://streak-stats.demolab.com?user=CPS7&theme=tokyonight&hide_border=true&background=0D1117&ring=3FB950&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak Stats" height="175" />
     </td>
   </tr>
 </table>
