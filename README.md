@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- GITHUB SPECIAL EDITION HERO BANNER -->
+<!-- GITHUB SPECIAL EDITION HERO BANNER (CENTER ALIGNED) -->
 <img src="assets/github-special-edition.svg" alt="GitHub Special Edition // Lakshay Rastogi (@CPS7)" width="100%" />
 
 </div>
@@ -20,7 +20,8 @@
 
 <br/>
 
-## 📌 Pinned Repositories
+<h2 align="center">📌 Pinned Repositories</h2>
+<p align="center">Architectural highlights across systems engineering, distributed infrastructure, and web platforms.</p>
 
 <table>
   <tr>
@@ -85,9 +86,10 @@
 
 <br/>
 
-## 🛠️ Technical Arsenal
+<h2 align="center">🛠️ Technical Arsenal</h2>
+<p align="center">Primary languages, frameworks, runtime engines, and infrastructure toolchains.</p>
 
-<table>
+<table align="center">
   <thead>
     <tr>
       <th width="25%" align="left">Domain</th>
@@ -126,7 +128,7 @@
 
 <br/>
 
-## 📊 Contribution Velocity & Telemetry
+<h2 align="center">📊 Contribution Velocity &amp; Telemetry</h2>
 
 <div align="center">
   <table border="0" cellspacing="0" cellpadding="0">
@@ -149,11 +151,10 @@
 
 <br/>
 
-## 📬 Connect & Collaborate
-
-Open for technical architecture discussions, senior/staff engineering opportunities, and ambitious open-source collaborations.
-
 <div align="center">
+  <h2>📬 Connect &amp; Collaborate</h2>
+  <p>Open for technical architecture discussions, senior engineering opportunities, and ambitious open-source collaborations.</p>
+
   <br/>
   <a href="https://github.com/CPS7">
     <img src="https://img.shields.io/badge/GitHub-@CPS7-21262D?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
