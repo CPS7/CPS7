@@ -134,13 +134,7 @@
 
 <br/>
 
-<table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td>
-      <img src="https://streak-stats.demolab.com?user=CPS7&theme=tokyonight&hide_border=true&background=0D1117&ring=3FB950&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak Stats" height="175" />
-    </td>
-  </tr>
-</table>
+<img src="assets/telemetry-matrix.svg" alt="Engineering Telemetry &amp; Velocity Metrics" width="100%" />
 
 <br/><br/>
 
