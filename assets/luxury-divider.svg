@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 18" width="100%" height="100%">
+  <defs>
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#E5BE64" stop-opacity="0.6"/>
+      <stop offset="80%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="lightShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E5BE64" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#E5BE64" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glowPoint" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes sweep {
+      0% { transform: translateX(100px); opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { transform: translateX(750px); opacity: 0; }
+    }
+    .shimmer-dot {
+      animation: sweep 4.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+  </style>
+
+  <!-- Base Hairline -->
+  <line x1="20" y1="9" x2="830" y2="9" stroke="url(#dividerGrad)" stroke-width="1"/>
+
+  <!-- Center Diamond Emblem -->
+  <polygon points="425,5 429,9 425,13 421,9" fill="#E5BE64" opacity="0.8"/>
+  <circle cx="425" cy="9" r="1" fill="#FFFFFF"/>
+
+  <!-- Subtle Travelling Light Glint -->
+  <g class="shimmer-dot">
+    <ellipse cx="0" cy="9" rx="20" ry="2" fill="url(#lightShimmer)" filter="url(#glowPoint)"/>
+  </g>
+</svg>

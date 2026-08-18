@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 280" width="100%" height="100%">
+  <defs>
+    <!-- Background & Glass Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B11"/>
+      <stop offset="50%" stop-color="#0D111A"/>
+      <stop offset="100%" stop-color="#06080D"/>
+    </linearGradient>
+
+    <!-- Luxury Gold / Platinum Gradients -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F5D77F"/>
+      <stop offset="50%" stop-color="#E5BE64"/>
+      <stop offset="100%" stop-color="#C29B38"/>
+    </linearGradient>
+
+    <linearGradient id="platinumGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+
+    <linearGradient id="hairlineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+      <stop offset="30%" stop-color="#E5BE64" stop-opacity="0.5"/>
+      <stop offset="70%" stop-color="#FFFFFF" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <!-- Ambient Glow Filter -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes ambientPulse {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.65; transform: scale(1.08); }
+    }
+    @keyframes shimmerMove {
+      0% { transform: translateX(-850px); }
+      100% { transform: translateX(850px); }
+    }
+    @keyframes statusBlink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.35; }
+    }
+    @keyframes typewriter {
+      0%, 10% { opacity: 0; transform: translateY(4px); }
+      15%, 85% { opacity: 1; transform: translateY(0); }
+      90%, 100% { opacity: 0; transform: translateY(-4px); }
+    }
+
+    .ambient-orb {
+      animation: ambientPulse 8s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .shimmer-line {
+      animation: shimmerMove 6s linear infinite;
+    }
+    .status-dot {
+      animation: statusBlink 2.5s ease-in-out infinite;
+    }
+    .text-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, sans-serif;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+    .text-mono {
+      font-family: 'SF Mono', 'Fira Code', Menlo, Consolas, Monaco, monospace;
+    }
+    .text-body {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, Helvetica, sans-serif;
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect x="1" y="1" width="848" height="278" rx="16" fill="url(#bgGrad)" stroke="url(#hairlineGrad)" stroke-width="1.2"/>
+
+  <!-- Subtle Radial Glow Behind Content -->
+  <circle class="ambient-orb" cx="160" cy="140" r="120" fill="#E5BE64" opacity="0.08" filter="url(#softGlow)"/>
+  <circle class="ambient-orb" cx="720" cy="80" r="90" fill="#6366F1" opacity="0.06" filter="url(#softGlow)"/>
+
+  <!-- Top Hairline Shimmer -->
+  <g clip-path="url(#cardClip)">
+    <line x1="0" y1="1" x2="850" y2="1" stroke="url(#hairlineGrad)" stroke-width="1.5"/>
+  </g>
+
+  <!-- Left Accent Monogram Emblem -->
+  <g transform="translate(48, 56)">
+    <!-- Outer Octagon/Beveled Frame -->
+    <rect x="0" y="0" width="88" height="88" rx="20" fill="#121722" stroke="url(#hairlineGrad)" stroke-width="1.5"/>
+    <rect x="6" y="6" width="76" height="76" rx="15" fill="#0A0D14" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1"/>
+    
+    <!-- Emblem Monogram -->
+    <text x="44" y="52" text-anchor="middle" fill="url(#goldGrad)" class="text-title" font-size="28" font-weight="800" filter="url(#subtleGlow)">CPS7</text>
+    <circle cx="44" cy="70" r="2.5" fill="#E5BE64" opacity="0.8"/>
+  </g>
+
+  <!-- Header Main Titles -->
+  <g transform="translate(160, 72)">
+    <!-- Small Category Kicker -->
+    <text x="0" y="0" fill="#94A3B8" class="text-mono" font-size="11" font-weight="600" letter-spacing="2.5">ENGINEERING EXECUTIVE &amp; ARCHITECT</text>
+    
+    <!-- Main Name -->
+    <text x="0" y="34" fill="url(#platinumGrad)" class="text-title" font-size="34" font-weight="800">Lakshay Rastogi</text>
+
+    <!-- Subtitle / Value Proposition -->
+    <text x="0" y="60" fill="#CBD5E1" class="text-body" font-size="15" font-weight="400">
+      Crafting high-throughput systems, resilient architectures &amp; next-generation web platforms.
+    </text>
+  </g>
+
+  <!-- Divider Line Inside Card -->
+  <line x1="48" y1="195" x2="802" y2="195" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- Bottom Metric Pills -->
+  <g transform="translate(48, 222)">
+    <!-- Status Pill: Available -->
+    <rect x="0" y="0" width="175" height="30" rx="15" fill="#121722" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+    <circle class="status-dot" cx="16" cy="15" r="4" fill="#10B981"/>
+    <text x="30" y="19.5" fill="#E2E8F0" class="text-mono" font-size="11" font-weight="500">STATUS: PRIME / ACTIVE</text>
+
+    <!-- Pillar 2: Systems -->
+    <g transform="translate(190, 0)">
+      <rect x="0" y="0" width="195" height="30" rx="15" fill="#121722" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+      <text x="16" y="19.5" fill="#E5BE64" class="text-mono" font-size="11" font-weight="600">⚡</text>
+      <text x="34" y="19.5" fill="#E2E8F0" class="text-mono" font-size="11" font-weight="500">HIGH-CONCURRENCY</text>
+    </g>
+
+    <!-- Pillar 3: AI & Full-Stack -->
+    <g transform="translate(400, 0)">
+      <rect x="0" y="0" width="185" height="30" rx="15" fill="#121722" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+      <text x="16" y="19.5" fill="#6366F1" class="text-mono" font-size="11" font-weight="600">◆</text>
+      <text x="34" y="19.5" fill="#E2E8F0" class="text-mono" font-size="11" font-weight="500">FULL-STACK &amp; AI</text>
+    </g>
+
+    <!-- Pillar 4: Location/Timezone -->
+    <g transform="translate(600, 0)">
+      <rect x="0" y="0" width="154" height="30" rx="15" fill="#121722" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+      <text x="16" y="19.5" fill="#94A3B8" class="text-mono" font-size="11" font-weight="600">🌐</text>
+      <text x="34" y="19.5" fill="#CBD5E1" class="text-mono" font-size="11" font-weight="500">GLOBAL REMOTE</text>
+    </g>
+  </g>
+</svg>
