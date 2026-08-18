@@ -1,34 +1,52 @@
 <div align="center">
 
-<!-- HERO BANNER -->
-<img src="assets/luxury-hero.svg" alt="CPS7 - Lakshay Rastogi | Executive Engineering Profile" width="100%" />
+<!-- 01. GRAND EXECUTIVE HERO BANNER -->
+<img src="assets/luxury-hero.svg" alt="CPS7 - Lakshay Rastogi | Executive Systems Architect" width="100%" />
 
 <br/><br/>
 
-<!-- LUXURY DIVIDER -->
+<!-- 02. HOLOGRAPHIC TITANIUM DEVELOPER PASSPORT / BLACK CARD -->
+<img src="assets/titanium-black-card.svg" alt="CPS7 Titanium Centurion Developer Passport" width="100%" />
+
+<br/><br/>
+
 <img src="assets/luxury-divider.svg" width="100%" />
 
 </div>
 
 <br/>
 
-## 🏛️ Executive Summary
+## 🏛️ Architectural Manifesto
 
 ```yaml
 Architect: Lakshay Rastogi
-Identifier: @CPS7
-Specialization: High-Throughput Distributed Systems • Next-Gen Full-Stack • AI Orchestration
-Engineering Philosophy: Zero-Allocation Algorithms • Sub-10ms Latency • Fault-Tolerant Reliability
-Availability: Open for Staff/Senior Engineering Roles & Tier-1 Consultations
+Handle: @CPS7
+Clearance: Tier-1 Systems Architect & Full-Stack Core Engineer
+Core Mission: Engineering sub-millisecond, fault-tolerant digital architectures that redefine execution speed.
+Target SLA: 99.999% Availability • Zero-Allocation Memory Footprint • Microsecond P99
 ```
 
-I engineer **resilient, high-concurrency digital platforms** and **modern full-stack ecosystems** where architectural precision meets uncompromising design aesthetics. My work bridges the gap between deep systems-level efficiency and hyper-responsive, pixel-perfect user experiences.
+> *"Perfection in software engineering is achieved not when there is nothing more to add, but when there is nothing left to take away. Every allocation must be justified; every millisecond must be defended."*
 
 <br/>
 
-<!-- ARCHITECTURE MATRIX BENTO -->
+<!-- 03. 3D ISOMETRIC QUANTUM CORE ENGINE -->
 <div align="center">
-  <img src="assets/architecture-matrix.svg" alt="Engineering Core Competencies & Reliability Metrics" width="100%" />
+  <img src="assets/isometric-core-engine.svg" alt="3D Isometric Quantum Distributed Core Engine" width="100%" />
+</div>
+
+<br/>
+
+<!-- 04. ARCHITECTURAL PILLARS MATRIX -->
+<div align="center">
+  <img src="assets/architecture-matrix.svg" alt="Core Competency & Reliability Metrics Matrix" width="100%" />
+</div>
+
+<br/>
+
+<!-- 05. LIVE REAL-TIME NEURAL WAVEFORM SPECTRUM -->
+<div align="center">
+  <img src="assets/neural-waveform.svg" alt="Real-Time Cognitive Compute Frequency Spectrum" width="100%" />
 </div>
 
 <br/>
@@ -42,7 +60,7 @@ I engineer **resilient, high-concurrency digital platforms** and **modern full-s
 ## 💻 Live Diagnostic Session
 
 <div align="center">
-  <img src="assets/executive-terminal.svg" alt="Executive Diagnostic Terminal" width="100%" />
+  <img src="assets/executive-terminal.svg" alt="Executive Diagnostic Terminal Session" width="100%" />
 </div>
 
 <br/>
@@ -56,7 +74,7 @@ I engineer **resilient, high-concurrency digital platforms** and **modern full-s
 ## ⚡ Curated Technology Arsenal
 
 <div align="center">
-  <img src="assets/tech-stack.svg" alt="Curated Technology Stack" width="100%" />
+  <img src="assets/tech-stack.svg" alt="Curated Technology Arsenal" width="100%" />
 </div>
 
 <br/>
@@ -73,7 +91,7 @@ I engineer **resilient, high-concurrency digital platforms** and **modern full-s
       <p>
         <code>CLI Architecture</code> • <code>C++ / Python</code> • <code>JSON / SQLite Engine</code>
       </p>
-      <a href="https://github.com/CPS7/Expense-Tracker-CLI"><b>Explore Repository ➔</b></a>
+      <a href="https://github.com/CPS7/Expense-Tracker-CLI"><b>Explore Architecture ➔</b></a>
     </td>
     <td width="50%" valign="top">
       <h3>⚡ Distributed Concurrency Hub</h3>
@@ -81,7 +99,7 @@ I engineer **resilient, high-concurrency digital platforms** and **modern full-s
       <p>
         <code>Next.js 15</code> • <code>TypeScript</code> • <code>Redis Streams</code> • <code>Docker</code>
       </p>
-      <a href="https://github.com/CPS7"><b>Explore Repository ➔</b></a>
+      <a href="https://github.com/CPS7"><b>Explore Architecture ➔</b></a>
     </td>
   </tr>
   <tr>
@@ -91,7 +109,7 @@ I engineer **resilient, high-concurrency digital platforms** and **modern full-s
       <p>
         <code>Python</code> • <code>LangChain</code> • <code>FastAPI</code> • <code>Vector DB</code>
       </p>
-      <a href="https://github.com/CPS7"><b>Explore Repository ➔</b></a>
+      <a href="https://github.com/CPS7"><b>Explore Architecture ➔</b></a>
     </td>
     <td width="50%" valign="top">
       <h3>🌐 Hyper-Responsive Modern Web Platforms</h3>
@@ -99,7 +117,7 @@ I engineer **resilient, high-concurrency digital platforms** and **modern full-s
       <p>
         <code>React 19</code> • <code>TypeScript</code> • <code>TailwindCSS</code> • <code>Cloudflare Workers</code>
       </p>
-      <a href="https://github.com/CPS7"><b>Explore Repository ➔</b></a>
+      <a href="https://github.com/CPS7"><b>Explore Architecture ➔</b></a>
     </td>
   </tr>
 </table>

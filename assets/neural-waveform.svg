@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 140" width="100%" height="100%">
+  <defs>
+    <linearGradient id="waveBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E131E"/>
+      <stop offset="100%" stop-color="#070A10"/>
+    </linearGradient>
+
+    <linearGradient id="barGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#E5A93C"/>
+      <stop offset="100%" stop-color="#FFEAA7"/>
+    </linearGradient>
+
+    <filter id="barGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono {
+      font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', monospace;
+    }
+    @keyframes waveBounce1 {
+      0%, 100% { height: 12px; y: 78px; }
+      50% { height: 48px; y: 42px; }
+    }
+    @keyframes waveBounce2 {
+      0%, 100% { height: 38px; y: 52px; }
+      50% { height: 16px; y: 74px; }
+    }
+    @keyframes waveBounce3 {
+      0%, 100% { height: 20px; y: 70px; }
+      50% { height: 60px; y: 30px; }
+    }
+    @keyframes waveBounce4 {
+      0%, 100% { height: 50px; y: 40px; }
+      50% { height: 24px; y: 66px; }
+    }
+
+    .b1 { animation: waveBounce1 1.8s ease-in-out infinite; }
+    .b2 { animation: waveBounce2 2.2s ease-in-out infinite 0.3s; }
+    .b3 { animation: waveBounce3 1.5s ease-in-out infinite 0.6s; }
+    .b4 { animation: waveBounce4 2.5s ease-in-out infinite 0.9s; }
+    .b5 { animation: waveBounce1 1.9s ease-in-out infinite 1.2s; }
+    .b6 { animation: waveBounce3 2.1s ease-in-out infinite 0.4s; }
+  </style>
+
+  <!-- Frame Background -->
+  <rect x="1" y="1" width="848" height="138" rx="14" fill="url(#waveBg)" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1.2"/>
+
+  <!-- Left Meta Title -->
+  <g transform="translate(32, 42)">
+    <text x="0" y="0" fill="#64748B" class="font-mono" font-size="10" font-weight="700" letter-spacing="2">REAL-TIME COGNITIVE COMPUTE FREQUENCY</text>
+    <text x="0" y="24" fill="#FFFFFF" class="font-mono" font-size="16" font-weight="800">128.4 GHz Active Pipeline</text>
+    <text x="0" y="46" fill="#34D399" class="font-mono" font-size="11">● 0 Dropped Packets • Deterministic Stream</text>
+  </g>
+
+  <!-- Right Visual Equalizer Waveform Bars -->
+  <g transform="translate(480, 0)" filter="url(#barGlow)">
+    <rect class="b1" x="0" y="60" width="6" height="30" rx="3" fill="url(#barGrad)"/>
+    <rect class="b2" x="12" y="50" width="6" height="40" rx="3" fill="url(#barGrad)"/>
+    <rect class="b3" x="24" y="40" width="6" height="50" rx="3" fill="url(#barGrad)"/>
+    <rect class="b4" x="36" y="55" width="6" height="35" rx="3" fill="url(#barGrad)"/>
+    <rect class="b5" x="48" y="45" width="6" height="45" rx="3" fill="url(#barGrad)"/>
+    <rect class="b6" x="60" y="30" width="6" height="60" rx="3" fill="url(#barGrad)"/>
+    <rect class="b1" x="72" y="65" width="6" height="25" rx="3" fill="url(#barGrad)"/>
+    <rect class="b3" x="84" y="40" width="6" height="50" rx="3" fill="url(#barGrad)"/>
+    <rect class="b2" x="96" y="35" width="6" height="55" rx="3" fill="url(#barGrad)"/>
+    <rect class="b4" x="108" y="50" width="6" height="40" rx="3" fill="url(#barGrad)"/>
+    <rect class="b5" x="120" y="60" width="6" height="30" rx="3" fill="url(#barGrad)"/>
+    <rect class="b6" x="132" y="35" width="6" height="55" rx="3" fill="url(#barGrad)"/>
+    <rect class="b2" x="144" y="45" width="6" height="45" rx="3" fill="url(#barGrad)"/>
+    <rect class="b1" x="156" y="55" width="6" height="35" rx="3" fill="url(#barGrad)"/>
+    <rect class="b3" x="168" y="30" width="6" height="60" rx="3" fill="url(#barGrad)"/>
+    <rect class="b4" x="180" y="40" width="6" height="50" rx="3" fill="url(#barGrad)"/>
+    <rect class="b5" x="192" y="50" width="6" height="40" rx="3" fill="url(#barGrad)"/>
+    <rect class="b6" x="204" y="60" width="6" height="30" rx="3" fill="url(#barGrad)"/>
+    <rect class="b2" x="216" y="40" width="6" height="50" rx="3" fill="url(#barGrad)"/>
+    <rect class="b1" x="228" y="35" width="6" height="55" rx="3" fill="url(#barGrad)"/>
+    <rect class="b3" x="240" y="50" width="6" height="40" rx="3" fill="url(#barGrad)"/>
+    <rect class="b4" x="252" y="60" width="6" height="30" rx="3" fill="url(#barGrad)"/>
+    <rect class="b5" x="264" y="45" width="6" height="45" rx="3" fill="url(#barGrad)"/>
+    <rect class="b6" x="276" y="35" width="6" height="55" rx="3" fill="url(#barGrad)"/>
+    <rect class="b1" x="288" y="55" width="6" height="35" rx="3" fill="url(#barGrad)"/>
+    <rect class="b2" x="300" y="65" width="6" height="25" rx="3" fill="url(#barGrad)"/>
+    <rect class="b3" x="312" y="45" width="6" height="45" rx="3" fill="url(#barGrad)"/>
+    <rect class="b4" x="324" y="35" width="6" height="55" rx="3" fill="url(#barGrad)"/>
+  </g>
+</svg>
