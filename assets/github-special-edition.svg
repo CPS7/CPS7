@@ -61,9 +61,11 @@
 
     <!-- Main Title & Bio Details -->
     <g transform="translate(112, 10)">
-      <!-- Name -->
-      <text x="0" y="24" fill="#F0F6FC" class="font-gh" font-size="28" font-weight="800" letter-spacing="-0.5">Lakshay Rastogi</text>
-      <text x="210" y="24" fill="#58A6FF" class="font-mono" font-size="14" font-weight="600">@CPS7</text>
+      <!-- Name & Handle (Relative Flow) -->
+      <text x="0" y="24" class="font-gh">
+        <tspan fill="#F0F6FC" font-size="28" font-weight="800" letter-spacing="-0.5">Lakshay Rastogi</tspan>
+        <tspan dx="12" fill="#58A6FF" class="font-mono" font-size="15" font-weight="600">@CPS7</tspan>
+      </text>
 
       <!-- Subtitle -->
       <text x="0" y="48" fill="#8B949E" class="font-gh" font-size="14" font-weight="500">
