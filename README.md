@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- BESPOKE GITHUB SPECIAL EDITION HERO BANNER -->
-<img src="assets/github-bespoke-hero.svg" alt="Lakshay Rastogi (@CPS7) | GitHub Verified Architect" width="100%" />
+<img src="assets/github-bespoke-hero.svg" alt="Lakshay Rastogi (@CPS7) | Full-Stack Developer &amp; Systems Builder" width="100%" />
 
 </div>
 

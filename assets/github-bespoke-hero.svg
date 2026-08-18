@@ -43,11 +43,11 @@
 
   <!-- CENTER: MASTER TYPOGRAPHY & IDENTITY -->
   <g transform="translate(154, 48)">
-    <!-- GitHub Verified Tag -->
+    <!-- Developer Tag -->
     <g>
-      <rect x="0" y="0" width="180" height="22" rx="6" fill="#1F242C" stroke="#30363D" stroke-width="1"/>
+      <rect x="0" y="0" width="188" height="22" rx="6" fill="#1F242C" stroke="#30363D" stroke-width="1"/>
       <circle cx="11" cy="11" r="3" fill="#3FB950"/>
-      <text x="22" y="15" fill="#C9D1D9" class="font-mono" font-size="9.5" font-weight="600" letter-spacing="1">GITHUB VERIFIED ARCHITECT</text>
+      <text x="22" y="15" fill="#C9D1D9" class="font-mono" font-size="9.5" font-weight="600" letter-spacing="1">FULL-STACK &amp; SYSTEMS BUILDER</text>
     </g>
 
     <!-- Main Name -->
@@ -55,7 +55,7 @@
 
     <!-- Role Subtitle -->
     <text x="0" y="78" fill="#8B949E" class="font-gh" font-size="14" font-weight="400">
-      Staff-Grade Full-Stack Engineer &amp; Systems Architect • <tspan fill="#58A6FF" font-weight="600">@CPS7</tspan>
+      Full-Stack Developer &amp; Open-Source Engineer • <tspan fill="#58A6FF" font-weight="600">@CPS7</tspan>
     </text>
   </g>
 
